@@ -1,0 +1,61 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"SplashScreen\"><param name=\"android-package\" value=\"org.apache.cordova.splashscreen.SplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"DatePickerPlugin\"><param name=\"android-package\" value=\"com.native5.plugins.datepicker.DatePickerPlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Share\"><param name=\"android-package\" value=\"com.native5.plugins.share.Share\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Datepicker\"><param name=\"android-package\" value=\"nl.moreapps.datepicker.Datepicker\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "org.apache.cordova.splashscreen": {
+            "PACKAGE_NAME": "com.sonidocaracol.app"
+        },
+        "org.apache.cordova.network-information": {
+            "PACKAGE_NAME": "com.sonidocaracol.app"
+        },
+        "com.native5.plugins.datepicker": {
+            "PACKAGE_NAME": "com.sonidocaracol.app"
+        },
+        "nl.moreapps.datepicker": {
+            "PACKAGE_NAME": "com.sonidocaracol.app"
+        }
+    },
+    "dependent_plugins": {}
+}

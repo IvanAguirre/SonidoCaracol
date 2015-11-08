@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="todos_los_sistemas1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/platforms/android/assets/www/res/screen/todos_los_sistemas.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
